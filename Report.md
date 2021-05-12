@@ -94,7 +94,7 @@ eps_decay = 0.995       # multiplicative factor (per episode) for decreasing eps
 
 ```
 
-The Neural Networks use the Adam optimizer as shown below:
+The Neural Networks use the Adam optimizer as shown below:  
 ![adam_optim](images/adam_optim.png)
 
 ### The Result
