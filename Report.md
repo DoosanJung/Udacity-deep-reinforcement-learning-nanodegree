@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning : Navigation
 
-This repository contains my implementation of the [Udacity Deep Reinforcement Learning Nanodegree]((https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)) Project 1 - Navigation
+This report contains my implementation of the [Udacity Deep Reinforcement Learning Nanodegree]((https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)) Project 1 - Navigation
 
 ## Project's Goal  
 
@@ -95,7 +95,7 @@ eps_decay = 0.995       # multiplicative factor (per episode) for decreasing eps
 ```
 
 The Neural Networks use the Adam optimizer as shown below:
-![adam_optim](images/adam_optim.PNG)
+![adam_optim](images/adam_optim.png)
 
 ### The Result
 
