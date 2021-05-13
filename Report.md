@@ -109,10 +109,10 @@ Given the chosen architecture and parameters, the result looks like below:
 
 ![Score plot (training)](images/score_plot.png)
 
-After the environment was solved in 426 episodes, I decided to run more episodes if it continues to produce an average score (over 100 consecutive episodes) that is greater than 13.0 until it becomes 15.0. It appears to me that it will continue to produce an average score that is greater than 13.0.
+After the environment was solved in 503 episodes, I decided to run more episodes if it continues to produce an average score (over 100 consecutive episodes) that is greater than 13.0 until it becomes 15.0. It appears to me that it will continue to produce an average score that is greater than 13.0.
 
 ### Ideas for Future Work
 
-This repository only contains a vanilla Deep Q-network with fully connected layers, with only 64 nodes. This might be enough to resolve the enviroment in 426 episodes but I think there is a lot of room for improvement. Trying with more hidden layers with or without more nodes (+ dropout layers, possibly) can be one thing. Hyperparamter tuning can be another. Beside this vanilla Deep Q-network, I have not tried Double DQN, Prioritized Experience Replay, and Dueling DQN. There is no guarantee in advance that these will improve the performance but it's worth trying all three.  
+This repository only contains a vanilla Deep Q-network with fully connected layers, with only 64 nodes. This might be enough to resolve the enviroment in 503 episodes but I think there is a lot of room for improvement. Trying with more hidden layers with or without more nodes (+ dropout layers, possibly) can be one thing. Hyperparamter tuning can be another. Beside this vanilla Deep Q-network, I have not tried Double DQN, Prioritized Experience Replay, and Dueling DQN. There is no guarantee in advance that these will improve the performance but it's worth trying all three.  
   
 Also, as mentioned in the Udacity Deep Reinforcement Learning Nanodegree project, using the raw pixels as an input would be a good future work. The state will be, in this case, 84 x 84 RGB image rather than 37 features (that are velocity, ray-based precpetion of objects around the agent's foward direction). Including [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network) in the Q-network will probably suit well for this purpose and also image preprocessing would be needed.
